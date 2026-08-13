@@ -1,8 +1,11 @@
 body {
-    background-color: black;
+    background-color: LightPink;
     font-family: Arial, sans-serif;
 }
 
+.center{
+        text-align: center;
+}
 h1 {
     color: white;
 }
