@@ -1,19 +1,37 @@
 body {
-    background-color: LightPink;
+    background-color: darkgray;
     font-family: Arial, sans-serif;
 }
-
-.center{
-        text-align: center;
-}
-h1 {
-    color: white;
-}
-h2 {
-    color: white;
+header{
+    color: blackS;
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
 }
 
 p {
-    color: white;
+    color: black;
+    text-align: center;
     font-size: 18px;
+}
+
+ul.topnav{
+    text-align: center;
+    display: flex;  
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+}
+ul.topnav li a {
+    display: block;
+    color: #f1f1f1;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+ul.topnav li a:hover {
+    background-color: #747474;
+    color: black;
 }
