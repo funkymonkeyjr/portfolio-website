@@ -1,19 +1,19 @@
 body {
-    background-color: darkgray;
+    background-color: plum;
     font-family: Arial, sans-serif;
 }
 header{
-    color: blackS;
+    color: white;
     font-size: 35px;
     padding: 10px;
     text-align: center;
-    background-color: white;
+    background-color: purple;
     width: fit-content;
     margin: 0 auto;
 }
 
 p {
-    color: black;
+    color: white;
     text-align: center;
     font-size: 18px;
 }
@@ -25,7 +25,7 @@ ul.topnav{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #333333;
+    background-color: purple;
 }
 ul.topnav li a {
     display: block;
@@ -42,7 +42,7 @@ ul.topnav li a:hover {
 ul.skills {
     text-align: center;
     list-style-type: none;
-    background-color: #333333;
+    background-color: purple;
     width: fit-content;
     margin: 0 auto;
     padding: 0;
@@ -52,4 +52,20 @@ ul.skills li{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
+}
+
+ul.skills li:hover{
+    background-color: lightpink;
+}
+
+.dropdown{
+    display: none;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0;
+    background-color: lightpink;
+}
+
+ul.skills li:hover .dropdown {
+    display: block;
 }
