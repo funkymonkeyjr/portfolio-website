@@ -12,10 +12,14 @@ header{
     margin: 0 auto;
 }
 
-p {
+p.main-text{
     color: white;
-    text-align: center;
+    justify-content: center;
+    text-align: center; 
     font-size: 18px;
+    background-color: purple;
+    display: flex;
+
 }
 
 ul.topnav{
@@ -35,7 +39,7 @@ ul.topnav li a {
     font-size: 20px;
 }
 ul.topnav li a:hover {
-    background-color: #747474;
+    background-color: white;
     color: black;
 }
 
@@ -55,17 +59,30 @@ ul.skills li{
 }
 
 ul.skills li:hover{
-    background-color: lightpink;
+    background-color: white;
+    color: black;
 }
 
 .dropdown{
     display: none;
+    color: black;
     width: fit-content;
     margin: 0 auto;
     padding: 0;
-    background-color: lightpink;
+    background-color: white;
 }
 
 ul.skills li:hover .dropdown {
     display: block;
+}
+
+ul.socials{
+    text-align: center;
+    list-style-type: none;
+    background-color: white;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
 }
